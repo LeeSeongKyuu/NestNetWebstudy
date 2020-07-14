@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 3주차 과제 </title>
+    <link href="3week.css" type="text/css" rel="stylesheet">
+  </head>
+
+<body>
+
+    <h2>Web Study 3rd task</h2>
+    <br>
+
+    <caption>css를 공부하고 1주차 표를 완벽한 몬트리안으로 만들어보세요.</caption>
+
+    <table border="1" width="600" height="600">
+        <div class="table">
+        <tr>
+        <td colspan="3" rowspan ="3" class="red1" ></td>
+           <td colspan="2" rowspan="2" class="white1" ></td>
+           <td rowspan="2" class="blue1" ></td>
+        </tr>
+
+        <tr >
+        </tr>
+
+        <tr>
+             <td rowspan="2" class="yellow1" > </td>
+             <td colspan="2" rowspan="3" class="red2" > </td>
+        </tr>
+
+        <tr>
+           <td rowspan ="3" class="black1" > </td>
+           <td colspan ="2" class="blue2" > </td>
+        </tr>
+
+        <tr>
+          <td class="white2"> </td>
+          <td colspan="2" rowspan="2" class="white3"> </td>
+        </tr>
+
+        <tr>
+           <td class="white4"> </td>
+           <td colspan="2" class="black2" > </td>
+        </tr>
+        </div>
+
+
+</table>
+
+  <div id="banner">
+     <div class="content">
+         <p>이제 마스터피스에 대해 설명해보겠습니다.</p>
+
+     </div>
+
+        <br>
+        <div class="content2">
+            <h3>이 그림은 어쩌고 저쩌구, 스카이캐슬예서방에도 붙여져있었고
+            어쩌고 저쩌구, 1주차 과제는 사실 오늘을 위한 큰 그림이었고 어쩌구...
+            배경색때문에 글씨색을 하얀색으로 하겠습니당</h3>
+        </div>
+
+         <div class="content3">
+             <h3> 오늘 사용한 태그를 특별히 알려드리죠</h3>
+             <br>
+             <h4> table-layout : fixed </h4>
+         </div>
+
+  </div>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
