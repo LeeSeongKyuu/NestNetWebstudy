@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> 2주차 과제 </title>
+  </head>
+  
+  <body>
+     <h2>여러가지 form을 사용해보겠습니다.</h2>
+
+      <form action="/2weel.html" method="POST">  
+    
+     <label for="name">당신의 이름은?(text type)</label>
+     <input type ="text" id="name" name="name" value="이성규">
+      <br>
+      <hr>
+     <label for="age">당신의 나이는?(datalsit로 없으면 추가 가능하게)</label>
+     <input type="text" id="age" name="age" list="ages" >
+        <datalist id="ages">
+           <option value="15"></option>
+           <option value="16"></option>
+           <option value="17"></option>
+           <option value="18"></option>
+           <option value="19"></option>
+           <option value="20"></option>
+           <option value="21"></option>
+           <option value="22"></option>
+           <option value="23"></option>
+           <option value="24"></option>
+           <option value="25"></option>
+           <option value="26"></option>
+        </datalist>
+       <br>
+       <hr>
+      <label for="secret">당신의 비밀은?(pswd type)</label>
+      <input type="password" id="secret" name="secret">
+       <br>
+       <hr>
+      <label for="burger">햄최몇?(숫자만 입력가능, 최소:0, 최대:10)</label>
+      <input type="number" id="burger" name="burger" min="0" max="10">
+       <br>
+       <hr>
+      <span>부먹 찍먹</span>
+       <br>
+      <input type="radio" id="be "name="answer" value="부먹">
+      <label for="bu">부먹</label>
+      <input type="radio" id="bu" name="answer" value="찍먹">
+      <label for="zzic">!!!찍먹!!!</label> 
+       <br>
+       <hr>
+      <label for="Quiz"><strong>퀴즈</strong> input내의 name, id, value의 역할은?(textarea 행 :6, 열 : 40)</label>
+      <br>
+      <textarea id="Quiz name="Quiz" rows="6" cols="40"> </textarea>
+       <br>
+       <hr>
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
