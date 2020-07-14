@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> 1주차 과제 </title>
+  </head>
+  
+  <body>
+     <h1>안녕하셔</h1>
+     <h2><strong>나는 스트롱</strong><h2>
+     <h2><em>나는 이탤릭체</em></h2>
+
+     <ul>
+        <li>나는</li>
+        <li>unordered</li>
+        <li>list</li>
+        <li>입니다</li>
+        <li>옆에 똥글뱅이가 보이시나요?</li>
+      </ul>
+     <ol>
+         <li>나는</li>
+         <li>ordered</li>
+         <li>list</li>
+         <li>입니다</li>
+         <li>옆에 숫자가 보이시나요?</li>
+      </ol>
+   </body>
+
+    <table border="1" width="200" height="200">
+        <tr> 
+           <td colspan="3" rowspan ="3"> 3x3 </td>
+           <td colspan="2" rowspan="2"> 2x2 </td>
+           <td rowspan="2"> 1x2 </td>
+        </tr>
+        
+        <tr>
+        </tr>
+        
+        <tr>
+             <td rowspan="2"> 1x2</td>
+             <td colspan="2" rowspan="3"> 2x3 </td>
+        </tr>
+       
+        <tr>
+           <td rowspan ="3"> 1x3 </td>
+           <td colspan ="2"> 2x1</td>
+        </tr>
+      
+        <tr>
+          <td> 1x1 </td>
+          <td colspan="2" rowspan="2"> 2x2 </td>
+        </tr>
+       
+        <tr>
+           <td> 1x1 </td>
+           <td colspan="2"> 2x1 </td>
+        </tr>
+      
+
+             
+	
+    </table>
+
+
+
+</html>
